@@ -53,7 +53,7 @@ This repository contains the formal specification, Lean implementation, and full
 
 ## 6. External Resources
 
-- **OSF (archival)**: DOI link (to be added)  
+-  **OSF (archival):** https://doi.org/10.17605/OSF.IO/DYJC8 
 - **arXiv (preprint)**: link (to be added)
 
 ---
