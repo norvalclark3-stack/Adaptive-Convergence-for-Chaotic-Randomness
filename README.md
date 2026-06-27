@@ -51,13 +51,35 @@ This repository contains the formal specification, Lean implementation, and full
 
 ---
 
-## 6. External Resources
+## 6. Additional Research Papers (2026)
 
--  **OSF (archival):** https://doi.org/10.17605/OSF.IO/DYJC8 
-- **arXiv (preprint)**: link (to be added)
+**Developmental_ECG_Instability_Atlas_v1.ipynb**
+
+### ACCR_Invariant_Developmental_Calculus_Clark_2026.pdf
+Foundational mathematical specification of the AC‑CR invariant developmental calculus:
+- deterministic operator structure
+- 29‑cell developmental manifold
+- structural derivatives, curvature, drift, and instability metrics
+- invariance axioms and formal lemmas
+
+### ECG Dynamics as a 29‑Cell Developmental System.pdf
+First applied demonstration of AC‑CR:
+- developmental geometry of ECG RR‑interval sequences
+- drift and instability accumulation
+- curvature‑first early‑warning signals 
+- collapse‑risk trajectories
+  
+---
+
+
+## 7. External Resources
+
+- Zenodo (canonical DOI): https://doi.org/10.5281/zenodo.20844499
+- OSF (archival project): https://doi.org/10.17605/OSF.IO/DYJC8
+
 
 ---
 
-## 7. License
+## 8. License
 
 MIT License.
