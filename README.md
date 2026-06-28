@@ -51,7 +51,7 @@ This repository contains the formal specification, Lean implementation, and full
 
 ---
 
-## 6. Additional Research Papers (2026)
+## 6. ECG Dynamics as a 29‑Cell Developmental System: Geometry, Drift, and Instability
 
 **Developmental_ECG_Instability_Atlas_v1.ipynb**
 
@@ -68,18 +68,30 @@ First applied demonstration of AC‑CR:
 - drift and instability accumulation
 - curvature‑first early‑warning signals 
 - collapse‑risk trajectories
+
+---
+
+## 7. ACCR as an Operational Realization of the Kuehn Critical Transition Framework 
+ 
+### ACCR_as_an_Operational_Realization_of_the_Kuehn_Critical_Transition_Framework.ipynb
+Operational demonstration that ACCR reproduces the universality-class geometry defined in Kuehn (2011):
+- fold, Hopf, and noise-escape synthetic systems
+- ACCR drift + curvature → instability profiles
+- normalized instability curves showing clean universality-class separation
+- model-free realization of Kuehn’s fast–slow dynamical framework
+- early-warning geometry extracted directly from raw trajectories
+
+This paper shows that ACCR provides a data-driven operationalization of Kuehn’s mathematical theory without requiring system equations, bifurcation analysis, or parameter estimation.
   
 ---
 
-
-## 7. External Resources
+## 8. External Resources
 
 - Zenodo (canonical DOI): https://doi.org/10.5281/zenodo.20844499
 - OSF (archival project): https://doi.org/10.17605/OSF.IO/DYJC8
 
-
 ---
 
-## 8. License
+## 9. License
 
 MIT License.
