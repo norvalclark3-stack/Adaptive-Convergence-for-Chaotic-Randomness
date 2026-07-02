@@ -1,97 +1,109 @@
-
-# Adaptive Convergence for Chaotic Randomness (AC‑CR)
-
+Adaptive Convergence for Chaotic Randomness (AC‑CR)
 A minimal operator framework for developmental dynamics and contraction geometry.
 
 This repository contains the formal specification, Lean implementation, and full empirical test suite for AC‑CR.
 
----
+1. Core Files
+ACCR_Calculus_Main.lean  
+Formal definition of the AC‑CR operator framework. Loads with no errors.
 
-## 1. Core Files
+AC‑CR_Structural‑Stability_TestSuite.ipynb  
+Nine‑test S‑suite (S → S‑9): contraction, invariance, drift, basin deformation, Lyapunov behavior.
 
-- **ACCR_Calculus_Main.lean**  
-  Formal definition of the AC‑CR operator framework. Loads with no errors.
+2. Falsification Suite
+ACCR_Falsification_Suite_v1_to_v5.ipynb  
+Five‑stage adversarial falsification ladder: anisotropic → adversarial → coordinate‑free → hybrid → spectral.
 
-- **AC‑CR_Structural‑Stability_TestSuite.ipynb**  
-  Nine‑test S‑suite (S → S‑9): contraction, invariance, drift, basin deformation, Lyapunov behavior.
+3. Operator‑Level Tests
+ACCR_operator_composition_test.ipynb  
+Sequential + nested operator‑chain stability and drift diagnostics.
 
----
+ACCR_Pathological_Operator_Stack_Test.ipynb  
+Adversarial operator‑stack stress test for invariance and contraction stability.
 
-## 2. Falsification Suite
+4. Geometry + Multi‑Scale Tests
+ACCR_Degenerate_Geometry_Sweep_Test.ipynb  
+Degenerate → singular geometry sweep for AC‑CR stability diagnostics.
 
-- **ACCR_Falsification_Suite_v1_to_v5.ipynb**  
-  Five‑stage adversarial falsification ladder: anisotropic → adversarial → coordinate‑free → hybrid → spectral.
+ACCR_3D_BlindRG_Test.ipynb  
+Blind 3D RG test: anisotropic field, hidden‑event detection, multi‑scale stability.
 
----
+5. Meta‑Structure
+ACCR_Meta_Structure.ipynb  
+Framework‑level meta‑structure: axioms, invariants, diagnostics.
 
-## 3. Operator‑Level Tests
+6. ECG Dynamics as a 29‑Cell Developmental System: Geometry, Drift, and Instability
+Developmental_ECG_Instability_Atlas_v1.ipynb
 
-- **ACCR_operator_composition_test.ipynb**  
-  Sequential + nested operator‑chain stability and drift diagnostics.
-
-- **ACCR_Pathological_Operator_Stack_Test.ipynb**  
-  Adversarial operator‑stack stress test for invariance and contraction stability.
-
----
-
-## 4. Geometry + Multi‑Scale Tests
-
-- **ACCR_Degenerate_Geometry_Sweep_Test.ipynb**  
-  Degenerate → singular geometry sweep for AC‑CR stability diagnostics.
-
-- **ACCR_3D_BlindRG_Test.ipynb**  
-  Blind 3D RG test: anisotropic field, hidden‑event detection, multi‑scale stability.
-
----
-
-## 5. Meta‑Structure
-
-- **ACCR_Meta_Structure.ipynb**  
-  Framework‑level meta‑structure: axioms, invariants, diagnostics.
-
----
-
-## 6. ECG Dynamics as a 29‑Cell Developmental System: Geometry, Drift, and Instability
-
-**Developmental_ECG_Instability_Atlas_v1.ipynb**
-
-### ACCR_Invariant_Developmental_Calculus_Clark_2026.pdf
+ACCR_Invariant_Developmental_Calculus_Clark_2026.pdf
 Foundational mathematical specification of the AC‑CR invariant developmental calculus:
-- deterministic operator structure
-- 29‑cell developmental manifold
-- structural derivatives, curvature, drift, and instability metrics
-- invariance axioms and formal lemmas
 
-### ECG Dynamics as a 29‑Cell Developmental System.pdf
+deterministic operator structure
+
+29‑cell developmental manifold
+
+structural derivatives, curvature, drift, and instability metrics
+
+invariance axioms and formal lemmas
+
+ECG Dynamics as a 29‑Cell Developmental System.pdf
 First applied demonstration of AC‑CR:
-- developmental geometry of ECG RR‑interval sequences
-- drift and instability accumulation
-- curvature‑first early‑warning signals 
-- collapse‑risk trajectories
 
----
+developmental geometry of ECG RR‑interval sequences
 
-## 7. ACCR as an Operational Realization of the Kuehn Critical Transition Framework 
- 
-### ACCR_as_an_Operational_Realization_of_the_Kuehn_Critical_Transition_Framework.ipynb
-Operational demonstration that ACCR reproduces the universality-class geometry defined in Kuehn (2011):
-- fold, Hopf, and noise-escape synthetic systems
-- ACCR drift + curvature → instability profiles
-- normalized instability curves showing clean universality-class separation
-- model-free realization of Kuehn’s fast–slow dynamical framework
-- early-warning geometry extracted directly from raw trajectories
+drift and instability accumulation
 
-This paper shows that ACCR provides a data-driven operationalization of Kuehn’s mathematical theory without requiring system equations, bifurcation analysis, or parameter estimation.
-  
----
+curvature‑first early‑warning signals
 
-## 8. External Resources
+collapse‑risk trajectories
 
-- Zenodo (canonical DOI): https://doi.org/10.5281/zenodo.20844499
-- OSF (archival project): https://doi.org/10.17605/OSF.IO/DYJC8
+7. ACCR as an Operational Realization of the Kuehn Critical Transition Framework
+ACCR_as_an_Operational_Realization_of_the_Kuehn_Critical_Transition_Framework.ipynb
+Operational demonstration that ACCR reproduces the universality‑class geometry defined in Kuehn (2011):
 
----
+fold, Hopf, and noise‑escape synthetic systems
 
-## 9. License
+ACCR drift + curvature → instability profiles
 
+normalized instability curves showing clean universality‑class separation
+
+model‑free realization of Kuehn’s fast–slow dynamical framework
+
+early‑warning geometry extracted directly from raw trajectories
+
+This paper shows that ACCR provides a data‑driven operationalization of Kuehn’s mathematical theory without requiring system equations, bifurcation analysis, or parameter estimation.
+
+8. Quick Start (Minimal 3‑Cell ACCR Notebook)
+A compact starter notebook is included for rapid evaluation of ACCR operators on any 1‑D numeric signal.
+
+Notebook: ACCR_QuickStart.ipynb
+
+Usage:
+
+Open the notebook in Colab or Jupyter.
+
+Go to Cell 3.
+
+Paste your numeric data into the data = [...] list.
+
+Run the cell to compute:
+
+D — directional change
+
+DD — acceleration
+
+G — instability gradient
+
+F — collapse funnel
+
+EWS — early‑warning signal
+
+This minimal operator stack is ideal for quick testing and collapse‑event identification.
+
+9. External Resources
+Zenodo (canonical DOI): https://doi.org/10.5281/zenodo.20844499
+
+OSF (archival project): https://doi.org/10.17605/OSF.IO/DYJC8
+
+10. License
 MIT License.
