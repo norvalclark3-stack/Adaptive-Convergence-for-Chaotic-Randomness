@@ -1,4 +1,4 @@
-## Adaptive Convergence for Chaotic Randomness (AC‑CR)
+# **Adaptive Convergence for Chaotic Randomness (AC‑CR)**
 A minimal operator framework for developmental dynamics and contraction geometry.
 
 This repository contains the formal specification, Lean implementation, and full empirical test suite for AC‑CR.
