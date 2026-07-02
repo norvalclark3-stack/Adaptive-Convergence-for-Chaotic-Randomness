@@ -3,7 +3,7 @@ A minimal operator framework for developmental dynamics and contraction geometry
 
 This repository contains the formal specification, Lean implementation, and full empirical test suite for AC‑CR.
 
-1. Core Files
+## 1. Core Files
 ACCR_Calculus_Main.lean  
 Formal definition of the AC‑CR operator framework. Loads with no errors.
 
