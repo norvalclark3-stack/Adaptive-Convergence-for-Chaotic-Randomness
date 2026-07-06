@@ -19,18 +19,18 @@ ACCR_operator_composition_test.ipynb
 ACCR_Descriptive_Analysis_2026_pdf.pdf Sequential and nested operator‑chain diagnostics.
 
 ACCR_Pathological_Operator_Stack_Test.ipynb
-ACCR_Structural_Resilience_Report_2026_pdf.pdf (shared) Stress‑test for invariance and contraction stability.
+ACCR_Structural_Resilience_Report_2026.pdf (shared) Stress‑test for invariance and contraction stability.
 
 ## 4. Geometry & Multi‑Scale Tests
 ACCR_Degenerate_Geometry_Sweep_Test.ipynb
-ACCR_Structural_Resilience_Report_2026_pdf.pdf (shared) Degenerate → singular geometry sweep for AC‑CR stability diagnostics.
+ACCR_Structural_Resilience_Report_2026.pdf (shared) Degenerate → singular geometry sweep for AC‑CR stability diagnostics.
 
 ACCR_3D_BlindRG_Test.ipynb
 AC_CR__Adaptive_Convergence_for_Chaotic_Randomness___Blind_RG_Evaluation.pdf Blind 3D RG evaluation: anisotropic field, hidden‑event detection, multi‑scale stability.
 
 ## 5. Meta‑Structure
 ACCR_Meta_Structure.ipynb
-ACCR_Structural_Resilience_Report_2026_pdf.pdf (shared) Framework‑level meta‑structure: axioms, invariants, diagnostic structure.
+ACCR_Structural_Resilience_Report_2026.pdf (shared) Framework‑level meta‑structure: axioms, invariants, diagnostic structure.
 
 ## 6. Applied Demonstrations
 Developmental_ECG_Instability_Atlas_v1.ipynb
