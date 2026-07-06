@@ -1,110 +1,95 @@
-# **Adaptive Convergence for Chaotic Randomness (AC‑CR)**
-A minimal operator framework for developmental dynamics and contraction geometry.
+# **Adaptive Convergence for Chaotic Randomness (ACCR)**
+A closed, domain‑independent operator framework for developmental dynamics, contraction geometry, and early‑warning analysis.
 
-This repository contains the formal specification, Lean implementation, and full empirical test suite for AC‑CR.
+This repository contains the formal specification, Lean 4 verification, and the complete empirical test suite for ACCR, including the Omega‑Spec two‑funnel early‑warning architecture and the NB Power real‑world case study.
 
-## 1. Core Files
-ACCR_Calculus_Main.lean  
-Formal definition of the AC‑CR operator framework. Loads with no errors.
+## 1. Core Specification
+ACCR_Calculus_Main.lean
+Formal definition of the ACCR operator framework. Loads with no errors.
 
-AC‑CR_Structural‑Stability_TestSuite.ipynb  
-Nine‑test S‑suite (S → S‑9): contraction, invariance, drift, basin deformation, Lyapunov behavior.
+## 2. Structural Stability Suite
+AC‑CR_Structural‑Stability_TestSuite.ipynb
+ACCR_Stability_Atlas_v1_0_pdf.pdf Nine‑test S‑suite (S1–S9): contraction, invariance, drift, basin deformation, Lyapunov behavior.
 
-## 2. Falsification Suite
-ACCR_Falsification_Suite_v1_to_v5.ipynb  
-Five‑stage adversarial falsification ladder: anisotropic → adversarial → coordinate‑free → hybrid → spectral.
+## 3. Falsification & Adversarial Tests
+ACCR_Falsification_Suite_v1_to_v5.ipynb
+ACCR_v5_Spectral_Framework_Confirmation_tex.pdf Five‑stage adversarial falsification ladder: anisotropic → adversarial → coordinate‑free → hybrid → spectral.
 
-## 3. Operator‑Level Tests
-ACCR_operator_composition_test.ipynb  
-Sequential + nested operator‑chain stability and drift diagnostics.
+ACCR_operator_composition_test.ipynb
+ACCR_Descriptive_Analysis_2026_pdf.pdf Sequential and nested operator‑chain diagnostics.
 
-ACCR_Pathological_Operator_Stack_Test.ipynb  
-Adversarial operator‑stack stress test for invariance and contraction stability.
+ACCR_Pathological_Operator_Stack_Test.ipynb
+ACCR_Structural_Resilience_Report_2026_pdf.pdf (shared) Stress‑test for invariance and contraction stability.
 
-## 4. Geometry + Multi‑Scale Tests
-ACCR_Degenerate_Geometry_Sweep_Test.ipynb  
-Degenerate → singular geometry sweep for AC‑CR stability diagnostics.
+## 4. Geometry & Multi‑Scale Tests
+ACCR_Degenerate_Geometry_Sweep_Test.ipynb
+ACCR_Structural_Resilience_Report_2026_pdf.pdf (shared) Degenerate → singular geometry sweep for AC‑CR stability diagnostics.
 
-ACCR_3D_BlindRG_Test.ipynb  
-Blind 3D RG test: anisotropic field, hidden‑event detection, multi‑scale stability.
+ACCR_3D_BlindRG_Test.ipynb
+AC_CR__Adaptive_Convergence_for_Chaotic_Randomness___Blind_RG_Evaluation.pdf Blind 3D RG evaluation: anisotropic field, hidden‑event detection, multi‑scale stability.
 
 ## 5. Meta‑Structure
-ACCR_Meta_Structure.ipynb  
-Framework‑level meta‑structure: axioms, invariants, diagnostics.
+ACCR_Meta_Structure.ipynb
+ACCR_Structural_Resilience_Report_2026_pdf.pdf (shared) Framework‑level meta‑structure: axioms, invariants, diagnostic structure.
 
-## 6. ECG Dynamics as a 29‑Cell Developmental System: Geometry, Drift, and Instability
+## 6. Applied Demonstrations
 Developmental_ECG_Instability_Atlas_v1.ipynb
+ECG_Dynamics_as_a_29_Cell_Developmental_System__Geometry__Instability__and_Early_Warning_Structure.pdf               ECG developmental geometry, drift accumulation, instability metrics, and early‑warning signals.
+ACCR_IDC_Clark_2026_tex.pdf — A developmental geometry framework that maps physiological waveforms into a symmetry‑preserving manifold to track drift, instability, and curvature.
 
-ACCR_Invariant_Developmental_Calculus_Clark_2026.pdf
-Foundational mathematical specification of the AC‑CR invariant developmental calculus:
-
-deterministic operator structure
-
-29‑cell developmental manifold
-
-structural derivatives, curvature, drift, and instability metrics
-
-invariance axioms and formal lemmas
-
-ECG Dynamics as a 29‑Cell Developmental System.pdf
-First applied demonstration of AC‑CR:
-
-developmental geometry of ECG RR‑interval sequences
-
-drift and instability accumulation
-
-curvature‑first early‑warning signals
-
-collapse‑risk trajectories
-
-## 7. ACCR as an Operational Realization of the Kuehn Critical Transition Framework
 ACCR_as_an_Operational_Realization_of_the_Kuehn_Critical_Transition_Framework.ipynb
-Operational demonstration that ACCR reproduces the universality‑class geometry defined in Kuehn (2011):
+ACCR_as_an_Operational_Realization_of_the_Kuehn_Critical_Transition_Framework.pdf Operational demonstration that ACCR reproduces Kuehn (2011) universality‑class geometry (fold, Hopf, noise‑escape).
 
-fold, Hopf, and noise‑escape synthetic systems
+## 7. Omega‑Spec Early‑Warning Architecture
+ACCR_Two_Funnel_Early_Warning_OmegaSpec.ipynb
+ACCR_Two_Funnel_Early_Warning_OmegaSpec.pdf Full implementation of the Omega‑Spec two‑funnel early‑warning system:
 
-ACCR drift + curvature → instability profiles
+Funnel 1: predictive curvature‑instability × thinning
 
-normalized instability curves showing clean universality‑class separation
+Collapse boundary: argmax of ACCR
 
-model‑free realization of Kuehn’s fast–slow dynamical framework
+Funnel 2: reactive volatility × alignment flips
 
-early‑warning geometry extracted directly from raw trajectories
+Severity: continuous trapezoidal tail integration
 
-This paper shows that ACCR provides a data‑driven operationalization of Kuehn’s mathematical theory without requiring system equations, bifurcation analysis, or parameter estimation.
+## 8. Real‑World Case Study
+ACCR_NB_Power_March_2026.ipynb
+ACCR_NB_Power_Case_Study_March_2026_tex.pdf Real NB Power hourly load data processed through ACCR:
 
-## 8. Quick Start (Minimal 3‑Cell ACCR Notebook)
-A compact starter notebook is included for rapid evaluation of ACCR operators on any 1‑D numeric signal.
+Plain‑text (GitHub‑safe) values:
 
-Notebook: ACCR_QuickStart.ipynb
+Early‑warning trigger: t1 = 0
 
-Usage:
+Collapse boundary: tc = 16
 
-Open the notebook in Colab or Jupyter.
+Reactive activation: t2 = 17
 
-Go to Cell 3.
+Predictive horizon: H1 = 16
 
-Paste your numeric data into the data = [...] list.
+Reactive horizon: H2 = 1
 
-Run the cell to compute:
+Severity score: 0.064
 
-D — directional change
+Demonstrates ACCR’s operational viability on real utility telemetry.
 
-DD — acceleration
+## 9. Quick Start
+ACCR_QuickStart.ipynb
+Minimal 3‑cell ACCR notebook for rapid evaluation:
 
-G — instability gradient
+Directional change
 
-F — collapse funnel
+Acceleration
 
-EWS — early‑warning signal
+Instability gradient
 
-This minimal operator stack is ideal for quick testing and collapse‑event identification.
+Collapse funnel
 
-## 9. External Resources
+Early‑warning signal
+
+## 10. External Resources
 Zenodo (canonical DOI): https://doi.org/10.5281/zenodo.20844499
 
 OSF (archival project): https://doi.org/10.17605/OSF.IO/DYJC8
 
-## 10. License
-
+## 11. License
 MIT License.
