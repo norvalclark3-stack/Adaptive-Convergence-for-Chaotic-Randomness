@@ -7,6 +7,9 @@ This repository contains the formal specification, Lean 4 verification, and the 
 ACCR_RuptureGeometry_Formalization.lean
 Lean 4 formalization of ACCR rupture geometry: curvature spikes, shear accumulation, divergence operators, instability acceleration, and verified structural invariants. Loads with no errors.
 
+ACCR_RuptureGeometry_Testbench.ipynb  
+Notebook for running ACCR rupture‑geometry diagnostics: curvature spikes, shear accumulation, divergence behavior, instability acceleration, and full rupture‑signature validation.
+
 ## 2. Structural Stability Suite
 AC‑CR_Structural‑Stability_TestSuite.ipynb
 ACCR_Stability_Atlas_v1_0_pdf.pdf Nine‑test S‑suite (S1–S9): contraction, invariance, drift, basin deformation, Lyapunov behavior.
