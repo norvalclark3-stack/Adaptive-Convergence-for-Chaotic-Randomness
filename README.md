@@ -4,8 +4,8 @@ A closed, domain‑independent operator framework for developmental dynamics, co
 This repository contains the formal specification, Lean 4 verification, and the complete empirical test suite for ACCR, including the Omega‑Spec two‑funnel early‑warning architecture and the NB Power real‑world case study.
 
 ## 1. Core Specification
-ACCR_Calculus_Main.lean
-Formal definition of the ACCR operator framework. Loads with no errors.
+ACCR_RuptureGeometry_Formalization.lean
+Lean 4 formalization of ACCR rupture geometry: curvature spikes, shear accumulation, divergence operators, instability acceleration, and verified structural invariants. Loads with no errors.
 
 ## 2. Structural Stability Suite
 AC‑CR_Structural‑Stability_TestSuite.ipynb
