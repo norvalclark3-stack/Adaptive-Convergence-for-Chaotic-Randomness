@@ -35,7 +35,26 @@ AC_CR__Adaptive_Convergence_for_Chaotic_Randomness___Blind_RG_Evaluation.pdf Bli
 ACCR_Meta_Structure.ipynb
 ACCR_Structural_Resilience_Report_2026.pdf (shared) Framework‑level meta‑structure: axioms, invariants, diagnostic structure.
 
-## 6. Applied Demonstrations
+## 6. Omega‑Spec Operator‑Geometry Specification
+Temporal–Stochastic_Ω‑Spec_Equivalence_Test_(NB_Power_+_S3).ipynb
+Omega_Spec__Operator_Geometry_Rupture_Classification_Across_Temporal_and_Stochastic_Substrates.pdf  
+Design‑level operator‑geometry specification defining:
+
+A‑series design axioms (A1–A5)
+
+H‑series interpretation axioms (H1–H5)
+
+rupture predicate |ACCRₜ| > T
+
+manifold coordinates (C1, C2, C3)
+
+substrate‑agnostic geometric invariance
+
+temporal–stochastic equivalence principle
+
+This document formalizes the operator vocabulary (D1, D2, M, S, v, a, K, ACCR, F1, F2) and defines rupture classification across temporal and stochastic substrates.
+
+## 7. Applied Demonstrations
 Developmental_ECG_Instability_Atlas_v1.ipynb
 ECG_Dynamics_as_a_29_Cell_Developmental_System__Geometry__Instability__and_Early_Warning_Structure.pdf               ECG developmental geometry, drift accumulation, instability metrics, and early‑warning signals.
 ACCR_IDC_Clark_2026_tex.pdf — A developmental geometry framework that maps physiological waveforms into a symmetry‑preserving manifold to track drift, instability, and curvature.
@@ -43,7 +62,7 @@ ACCR_IDC_Clark_2026_tex.pdf — A developmental geometry framework that maps phy
 ACCR_as_an_Operational_Realization_of_the_Kuehn_Critical_Transition_Framework.ipynb
 ACCR_as_an_Operational_Realization_of_the_Kuehn_Critical_Transition_Framework.pdf Operational demonstration that ACCR reproduces Kuehn (2011) universality‑class geometry (fold, Hopf, noise‑escape).
 
-## 7. Omega‑Spec Early‑Warning Architecture
+## 8. Omega‑Spec Early‑Warning Architecture
 ACCR_Two_Funnel_Early_Warning_OmegaSpec.ipynb
 ACCR_Two_Funnel_Early_Warning_OmegaSpec.pdf Full implementation of the Omega‑Spec two‑funnel early‑warning system:
 
@@ -55,7 +74,7 @@ Funnel 2: reactive volatility × alignment flips
 
 Severity: continuous trapezoidal tail integration
 
-## 8. Real‑World Case Study
+## 9. Real‑World Case Study
 ACCR_NB_Power_March_2026.ipynb
 ACCR_NB_Power_Case_Study_March_2026_tex.pdf Real NB Power hourly load data processed through ACCR:
 
@@ -75,7 +94,7 @@ Severity score: 0.064
 
 Demonstrates ACCR’s operational viability on real utility telemetry.
 
-## 9. Quick Start
+## 10. Quick Start
 ACCR_QuickStart.ipynb
 Minimal 3‑cell ACCR notebook for rapid evaluation:
 
@@ -89,10 +108,10 @@ Collapse funnel
 
 Early‑warning signal
 
-## 10. External Resources
+## 11. External Resources
 Zenodo (canonical DOI): https://doi.org/10.5281/zenodo.20844499
 
 OSF (archival project): https://doi.org/10.17605/OSF.IO/DYJC8
 
-## 11. License
+## 12. License
 MIT License.
